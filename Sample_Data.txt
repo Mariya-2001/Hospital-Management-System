@@ -1,0 +1,854 @@
+-- Patients 30 Sample Data -- 
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000001', 'Aisha Al Balushi', 'Female', DATE '1998-03-14', '92010001', 'aisha.balushi@email.com', 'A+', 'Muscat', 'Salim Al Balushi', '95010001');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000002', 'Khalid Al Hinai', 'Male', DATE '1987-07-22', '92010002', 'khalid.hinai@email.com', 'O+', 'Seeb', 'Fatma Al Hinai', '95010002');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000003', 'Noor Al Rawahi', 'Female', DATE '2001-11-05', '92010003', 'noor.rawahi@email.com', 'B+', 'Bawshar', 'Ahmed Al Rawahi', '95010003');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000004', 'Yousef Al Harthy', 'Male', DATE '1979-01-18', '92010004', 'yousef.harthy@email.com', 'AB+', 'Nizwa', 'Mariam Al Harthy', '95010004');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000005', 'Maha Al Amri', 'Female', DATE '1995-06-29', '92010005', 'maha.amri@email.com', 'A-', 'Sohar', 'Nasser Al Amri', '95010005');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000006', 'Hamza Al Kindi', 'Male', DATE '1992-09-10', '92010006', 'hamza.kindi@email.com', 'O-', 'Muscat', 'Huda Al Kindi', '95010006');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000007', 'Laila Al Lawati', 'Female', DATE '1984-12-02', '92010007', 'laila.lawati@email.com', 'B-', 'Muttrah', 'Ali Al Lawati', '95010007');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000008', 'Salim Al Maamari', 'Male', DATE '2000-04-21', '92010008', 'salim.maamari@email.com', 'A+', 'Ibri', 'Alya Al Maamari', '95010008');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000009', 'Hanan Al Busaidi', 'Female', DATE '1990-08-16', '92010009', 'hanan.busaidi@email.com', 'AB-', 'Sur', 'Omar Al Busaidi', '95010009');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000010', 'Nasser Al Shanfari', 'Male', DATE '1975-02-25', '92010010', 'nasser.shanfari@email.com', 'O+', 'Salalah', 'Amal Al Shanfari', '95010010');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000011', 'Reem Al Riyami', 'Female', DATE '2003-05-09', '92010011', 'reem.riyami@email.com', 'B+', 'Muscat', 'Said Al Riyami', '95010011');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000012', 'Fahad Al Jabri', 'Male', DATE '1988-10-30', '92010012', 'fahad.jabri@email.com', 'A-', 'Barka', 'Khadija Al Jabri', '95010012');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000013', 'Maryam Al Wahaibi', 'Female', DATE '1997-01-12', '92010013', 'maryam.wahaibi@email.com', 'O+', 'Rustaq', 'Hamad Al Wahaibi', '95010013');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000014', 'Sultan Al Farsi', 'Male', DATE '1982-06-17', '92010014', 'sultan.farsi@email.com', 'AB+', 'Ibra', 'Aisha Al Farsi', '95010014');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000015', 'Asma Al Maskari', 'Female', DATE '1999-09-01', '92010015', 'asma.maskari@email.com', 'A+', 'Al Amerat', 'Yaqoob Al Maskari', '95010015');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000016', 'Majid Al Abri', 'Male', DATE '1993-03-27', '92010016', 'majid.abri@email.com', 'B-', 'Bahla', 'Noura Al Abri', '95010016');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000017', 'Ruqaya Al Habsi', 'Female', DATE '1986-11-19', '92010017', 'ruqaya.habsi@email.com', 'O-', 'Suwaiq', 'Mohammed Al Habsi', '95010017');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000018', 'Anas Al Manthari', 'Male', DATE '2002-07-07', '92010018', 'anas.manthari@email.com', 'A+', 'Muscat', 'Mona Al Manthari', '95010018');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000019', 'Shatha Al Nabhani', 'Female', DATE '1991-04-11', '92010019', 'shatha.nabhani@email.com', 'B+', 'Saham', 'Khalfan Al Nabhani', '95010019');
+
+INSERT INTO patients
+    (civil_id, full_name, gender, date_of_birth, mobile_no, email, blood_group, address, emergency_contact_name, emergency_contact_no)
+VALUES
+    ('90000020', 'Ibrahim Al Rahbi', 'Male', DATE '1978-12-23', '92010020', 'ibrahim.rahbi@email.com', 'AB-', 'Bidbid', 'Salma Al Rahbi', '95010020');
+
+
+
+-- INSERT 10 DOCTORS -- 
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Ahmed Al Balushi',
+    1,
+    1,
+    '92110001',
+    'ahmed.balushi@alnoorhospital.com',
+    25.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Sara Al Hinai',
+    2,
+    2,
+    '92110002',
+    'sara.hinai@alnoorhospital.com',
+    20.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Mustafa Al Rawahi',
+    3,
+    3,
+    '92110003',
+    'mustafa.rawahi@alnoorhospital.com',
+    30.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Fatma Al Harthy',
+    4,
+    4,
+    '92110004',
+    'fatma.harthy@alnoorhospital.com',
+    35.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Khalid Al Amri',
+    5,
+    5,
+    '92110005',
+    'khalid.amri@alnoorhospital.com',
+    18.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Aisha Al Maamari',
+    1,
+    1,
+    '92110006',
+    'aisha.maamari@alnoorhospital.com',
+    28.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Omar Al Busaidi',
+    2,
+    2,
+    '92110007',
+    'omar.busaidi@alnoorhospital.com',
+    22.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Maryam Al Lawati',
+    3,
+    3,
+    '92110008',
+    'maryam.lawati@alnoorhospital.com',
+    27.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Nasser Al Shanfari',
+    4,
+    4,
+    '92110009',
+    'nasser.shanfari@alnoorhospital.com',
+    40.000,
+    'Active'
+);
+
+INSERT INTO doctors (
+    full_name,
+    department_id,
+    specialty_id,
+    mobile_no,
+    email,
+    consultation_fee,
+    status
+)
+VALUES (
+    'Dr. Huda Al Kindi',
+    5,
+    5,
+    '92110010',
+    'huda.kindi@alnoorhospital.com',
+    20.000,
+    'Active'
+);
+
+COMMIT;
+
+
+
+
+-- medicines sample Data --
+
+ 
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Amoxicillin 500mg', 1, 'Capsule', 120, 30, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Azithromycin 250mg', 1, 'Tablet', 45, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Cefuroxime 500mg', 1, 'Tablet', 18, 25, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Metronidazole 400mg', 1, 'Tablet', 60, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Paracetamol 500mg', 2, 'Tablet', 200, 50, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Ibuprofen 400mg', 2, 'Tablet', 75, 30, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Diclofenac 50mg', 2, 'Tablet', 15, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Paracetamol Syrup', 2, 'Syrup', 40, 15, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Metformin 500mg', 3, 'Tablet', 150, 40, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Gliclazide 80mg', 3, 'Tablet', 55, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Insulin Regular', 3, 'Injection', 12, 15, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Insulin Glargine', 3, 'Injection', 25, 10, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Amlodipine 5mg', 4, 'Tablet', 90, 25, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Losartan 50mg', 4, 'Tablet', 70, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Atorvastatin 20mg', 4, 'Tablet', 22, 30, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Bisoprolol 5mg', 4, 'Tablet', 50, 15, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Vitamin D3 1000 IU', 5, 'Tablet', 110, 30, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Vitamin C 500mg', 5, 'Tablet', 95, 25, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Vitamin B Complex', 5, 'Tablet', 14, 20, 'Active');
+
+INSERT INTO medicines
+    (medicine_name, category_id, unit, current_stock, reorder_level, status)
+VALUES
+    ('Multivitamin Syrup', 5, 'Syrup', 35, 15, 'Active');
+
+
+------------------------------------------------------------
+-- 30 SAMPLE APPOINTMENTS
+------------------------------------------------------------
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (76, 41, DATE '2026-07-15', '09:00', 2, 'Routine cardiology check-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (77, 42, DATE '2026-07-15', '09:30', 1, 'Fever and cough consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (78, 43, DATE '2026-07-15', '10:00', 2, 'Headache and dizziness');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (79, 44, DATE '2026-07-15', '10:30', 1, 'Knee pain consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (80, 45, DATE '2026-07-15', '11:00', 1, 'General health examination');
+
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (81, 46, DATE '2026-07-16', '09:00', 2, 'Chest discomfort follow-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (82, 47, DATE '2026-07-16', '09:30', 1, 'General consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (83, 41, DATE '2026-07-16', '10:00', 3, 'Medical review');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (84, 42, DATE '2026-07-16', '10:30', 2, 'Back pain follow-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (85, 43, DATE '2026-07-16', '11:00', 4, 'Annual health examination');
+
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (76, 44, DATE '2026-07-17', '09:00', 2, 'Follow-up consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (77, 45, DATE '2026-07-17', '09:30', 1, 'Persistent fever');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (78, 46, DATE '2026-07-17', '10:00', 1, 'Shoulder pain');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (79, 47, DATE '2026-07-17', '10:30', 2, 'Routine medical review');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (80, 41, DATE '2026-07-17', '11:00', 3, 'Blood pressure follow-up');
+
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (81, 42, DATE '2026-07-18', '09:00', 1, 'Nutrition and wellness consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (82, 43, DATE '2026-07-18', '09:30', 2, 'Emergency follow-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (83, 44, DATE '2026-07-18', '10:00', 1, 'Joint pain consultation');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (84, 45, DATE '2026-07-18', '10:30', 4, 'General medical examination');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (85, 46, DATE '2026-07-18', '11:00', 1, 'Heart palpitations');
+
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (76, 47, DATE '2026-07-19', '09:00', 2, 'Emergency review');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (77, 41, DATE '2026-07-19', '09:30', 1, 'Arm pain after injury');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (78, 42, DATE '2026-07-19', '10:00', 1, 'General wellness check');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (79, 43, DATE '2026-07-19', '10:30', 2, 'Cardiology follow-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (80, 44, DATE '2026-07-19', '11:00', 1, 'Medical consultation');
+
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (81, 45, DATE '2026-07-20', '09:00', 3, 'Urgent care review');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (82, 46, DATE '2026-07-20', '09:30', 1, 'Sports injury assessment');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (83, 47, DATE '2026-07-20', '10:00', 2, 'General follow-up');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (84, 41, DATE '2026-07-20', '10:30', 1, 'Blood pressure and heart check');
+
+INSERT INTO appointments
+    (patient_id, doctor_id, appointment_date, appointment_time, status_id, reason_for_visit)
+VALUES
+    (85, 42, DATE '2026-07-20', '11:00', 1, 'Respiratory symptoms consultation');
+
+
+-- Insert 10 visits from 10 appointments -- 
+
+-- FIRST VISIT -- 
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Headache and mild fever',
+    'Viral infection',
+    'Rest, hydration, and medication as prescribed',
+    appointment_date + 7
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 1;
+
+
+-- SECOND VISIT -- 
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Persistent cough and sore throat',
+    'Upper respiratory infection',
+    'Monitor symptoms and complete prescribed medication',
+    appointment_date + 5
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 2;
+
+-- THIRD VISIT -- 
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Chest discomfort and fatigue',
+    'Hypertension evaluation',
+    'Blood pressure monitoring advised',
+    appointment_date + 14
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 3;
+
+
+-- FOURTH VISIT -- 
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Knee pain and swelling',
+    'Joint inflammation',
+    'Avoid strenuous activity and use prescribed pain relief',
+    appointment_date + 10
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 4;
+
+-- FIFTH VISIT --
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'General weakness and dizziness',
+    'Vitamin deficiency suspected',
+    'Blood test recommended',
+    appointment_date + 14
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 5;
+
+-- SIXTH VISIT --
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Abdominal discomfort',
+    'Gastric irritation',
+    'Dietary changes and medication recommended',
+    appointment_date + 7
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 6;
+
+
+-- SEVENTH VISIT --
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Shortness of breath',
+    'Respiratory infection',
+    'Rest and monitor breathing symptoms',
+    appointment_date + 5
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 7;
+
+-- EIGHTH VISIT --
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Lower back pain',
+    'Muscle strain',
+    'Rest and avoid heavy lifting',
+    appointment_date + 10
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 8;
+
+
+--  NINTH VISIT -- 
+
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'High blood sugar readings',
+    'Diabetes follow-up',
+    'Continue monitoring glucose levels',
+    appointment_date + 30
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 9;
+
+-- TENTH VISIT -- 
+INSERT INTO patient_visits (
+    appointment_id,
+    patient_id,
+    doctor_id,
+    visit_date,
+    symptoms,
+    diagnosis,
+    notes,
+    follow_up_date
+)
+SELECT
+    appointment_id,
+    patient_id,
+    doctor_id,
+    appointment_date,
+    'Palpitations and mild dizziness',
+    'Cardiac rhythm evaluation',
+    'ECG and follow-up recommended',
+    appointment_date + 14
+FROM (
+    SELECT a.*,
+           ROW_NUMBER() OVER (ORDER BY appointment_id) AS rn
+    FROM appointments a
+)
+WHERE rn = 10;   
+
+
+
+ 
+
